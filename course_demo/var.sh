@@ -12,3 +12,12 @@ echo ${name^}
 
 # all word in Upper case
 echo ${name^^}
+
+# lenth of var srting
+echo ${#name}
+
+#Slicing ${var:start:end}
+
+num=0120245
+echo ${num:0:2}
+echo ${num: -3:2}
